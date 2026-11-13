@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kopi Sabtu - Bandung</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #fdf6f0; color: #3e2723; line-height: 1.5; }
+  .container { max-width: 480px; margin: 0 auto; padding: 24px 16px; min-height: 100vh; display: flex; flex-direction: column; }
+  header { text-align: center; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 2px solid #d7ccc8; }
+  h1 { font-size: 2rem; color: #4e342e; letter-spacing: 0.5px; }
+  .subtitle { color: #795548; font-size: 0.95rem; margin-top: 6px; }
+  section { margin-bottom: 30px; }
+  h2 { font-size: 1.25rem; margin-bottom: 16px; color: #5d4037; border-left: 4px solid #8d6e63; padding-left: 10px; }
+  .menu-item { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #efebe9; }
+  .menu-item:last-child { border-bottom: none; }
+  .name { font-weight: 600; color: #4e342e; }
+  .price { color: #6d4c41; font-variant-numeric: tabular-nums; }
+  .hours { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .hour-row { display: flex; justify-content: space-between; padding: 8px 0; color: #5d4037; }
+  .wa-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: 100%; background: #25d366; color: #fff; text-decoration: none; padding: 16px; border-radius: 12px; font-weight: 700; font-size: 1rem; box-shadow: 0 4px 12px rgba(37, 211, 102, 0.35); transition: background 0.2s; }
+  .wa-btn:hover { background: #1eb855; }
+  .wa-btn:active { transform: scale(0.98); }
+  .footer { margin-top: auto; text-align: center; color: #8d6e63; font-size: 0.85rem; padding-top: 16px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Kopi Sabtu</h1>
+    <div class="subtitle">Kedai Kopi &bull; Bandung</div>
+  </header>
+
+  <section>
+    <h2>Menu</h2>
+    <div class="menu-item"><span class="name">Es Kopi Susu</span><span class="price">Rp 18.000</span></div>
+    <div class="menu-item"><span class="name">Kopi Hitam</span><span class="price">Rp 12.000</span></div>
+    <div class="menu-item"><span class="name">Cappuccino</span><span class="price">Rp 22.000</span></div>
+    <div class="menu-item"><span class="name">Matcha Latte</span><span class="price">Rp 25.000</span></div>
+    <div class="menu-item"><span class="name">Caramel Macchiato</span><span class="price">Rp 28.000</span></div>
+    <div class="menu-item"><span class="name">Air Mineral</span><span class="price">Rp 5.000</span></div>
+  </section>
+
+  <section class="hours">
+    <h2>Jam Buka</h2>
+    <div class="hour-row"><span>Senin &ndash; Jumat</span><span>07.00 &ndash; 18.00</span></div>
+    <div class="hour-row"><span>Sabtu</span><span>08.00 &ndash; 20.00</span></div>
+    <div class="hour-row"><span>Minggu</span><span>Tutup</span></div>
+  </section>
+
+  <a href="https://wa.me/6281234567890" class="wa-btn">Order via WhatsApp</a>
+
+  <div class="footer">Kopi Sabtu &bull; Dibuat sederhana untuk kamu</div>
+</div>
+</body>
+</html>

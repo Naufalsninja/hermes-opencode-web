@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NusantaraAI Studio — Solusi Kecerdasan Buatan Lokal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="brand">NusantaraAI<span>Studio</span></div>
+      <button id="themeToggle" class="btn-outline" type="button" aria-label="Ganti Tema">
+        Mode Terang
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">HERMES + OPENCODE + DOCKER</p>
+      <h1>Otomatisasi Bisnis Lokal dengan Agen AI Mandiri.</h1>
+      <p class="subtitle">
+        NusantaraAI Studio membantu UMKM dan instansi membangun sistem asisten virtual,
+        ekstraksi dokumen, dan alur kerja otomatis tanpa ketergantungan cloud mahal.
+      </p>
+      <div class="hero-actions">
+        <button id="runButton" class="btn-primary" type="button">Simulasikan Proses Build</button>
+        <a href="#layanan" class="btn-secondary">Lihat Layanan</a>
+      </div>
+    </section>
+
+    <section class="workflow-card" aria-label="Simulasi Alur Kerja">
+      <h2>Status Alur Kerja Agen</h2>
+      <ol id="steps" class="step-list">
+        <li data-step>
+          <span>1. Hermes menyusun rencana tugas</span>
+          <span class="status">Menunggu</span>
+        </li>
+        <li data-step>
+          <span>2. OpenCode menulis kode antarmuka</span>
+          <span class="status">Menunggu</span>
+        </li>
+        <li data-step>
+          <span>3. Docker membungkus &amp; menjalankan web</span>
+          <span class="status">Menunggu</span>
+        </li>
+      </ol>
+    </section>
+
+    <section id="layanan" class="services">
+      <h2>Layanan Unggulan Kami</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Asisten Dokumen &amp; OCR</h3>
+          <p>Ekstraksi otomatis data struk, faktur, dan arsip administrasi ke format digital terstruktur.</p>
+        </article>
+        <article class="card">
+          <h3>Chatbot Layanan Pelanggan</h3>
+          <p>Asisten percakapan berbasis pengetahuan produk internal yang merespons pelanggan 24/7.</p>
+        </article>
+        <article class="card">
+          <h3>Analitik Data UMKM</h3>
+          <p>Ringkasan laporan penjualan harian dan prediksi stok barang secara otomatis dan mudah dibaca.</p>
+        </article>
+        <article class="card">
+          <h3>Integrasi Server Lokal</h3>
+          <p>Pemasangan model AI privat di infrastruktur lokal perusahaan untuk menjaga kerahasiaan data.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 NusantaraAI Studio. Dijalankan pada container Nginx Docker.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
